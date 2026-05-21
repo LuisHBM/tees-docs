@@ -1,0 +1,99 @@
+# Histórias de Usuário — LicitAI
+
+## Atores
+
+**Usuário público** é o pesquisador, jornalista, fornecedor ou cidadão que consulta licitações sem autenticação
+
+**Administrador** é o responsável pela operação da plataforma, pela configuração das coletas e pelo monitoramento do sistema
+
+---
+
+## Histórias do Usuário Público
+
+### HU01 Busca por palavra-chave
+
+Como usuário público quero pesquisar licitações digitando termos do objeto da compra para encontrar rapidamente editais relacionados ao meu interesse sem precisar navegar por portais governamentais
+
+Caso de uso originado: UC01
+
+---
+
+### HU02 Busca por linguagem natural
+
+Como usuário público quero descrever o que estou procurando com minhas próprias palavras e obter resultados relevantes mesmo que minha frase não corresponda exatamente ao texto do edital para que eu não precise conhecer o vocabulário técnico das licitações
+
+Caso de uso originado: UC02
+
+---
+
+### HU03 Filtro por critérios objetivos
+
+Como usuário público quero filtrar os resultados por estado, modalidade, faixa de valor e período de publicação para restringir a busca ao contexto que me interessa e reduzir o volume de resultados irrelevantes
+
+Caso de uso originado: UC03
+
+---
+
+### HU04 Detalhamento da licitação
+
+Como usuário público quero ver todas as informações de uma licitação específica em uma única tela para avaliar se ela é relevante sem precisar acessar o PNCP diretamente
+
+Caso de uso originado: UC04
+
+---
+
+### HU05 Visão analítica agregada
+
+Como usuário público quero ver painéis com indicadores sobre volume de licitações, distribuição por modalidade, órgão ou região e evolução temporal dos valores para entender o comportamento das compras públicas em determinado contexto
+
+Caso de uso originado: UC05
+
+---
+
+## Histórias do Administrador
+
+### HU06 Coleta de dados do PNCP
+
+Como administrador quero acionar a coleta de licitações na API do PNCP informando um intervalo de datas, modalidade e UF para manter a base de dados atualizada com novos editais publicados
+
+Caso de uso originado: UC06
+
+---
+
+### HU07 Configuração dos parâmetros de coleta
+
+Como administrador quero definir com antecedência os parâmetros de uma coleta como período, modalidade, UF e frequência para automatizar a atualização da base sem precisar intervir manualmente a cada execução
+
+Caso de uso originado: UC07
+
+---
+
+### HU08 Monitoramento do sistema
+
+Como administrador quero acompanhar os logs das coletas e o status de cada execução para identificar falhas, reprocessar coletas com erro e garantir a integridade dos dados
+
+Caso de uso originado: UC08
+
+---
+
+### HU09 Exportação para BI
+
+Como administrador quero exportar os dados de licitações em formato CSV para alimentar dashboards no Power BI com dados tratados e atualizados
+
+Caso de uso originado: UC09
+
+---
+
+## Rastreabilidade
+
+| Historia | Caso de uso |
+|----------|-------------|
+| HU01     | UC01        |
+| HU02     | UC02        |
+| HU03     | UC03        |
+| HU04     | UC04        |
+| HU05     | UC05        |
+| HU06     | UC06        |
+| HU07     | UC07        |
+| HU08     | UC08        |
+| HU09     | UC09        |
