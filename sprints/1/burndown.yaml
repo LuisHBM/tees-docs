@@ -1,0 +1,32 @@
+sprint: 1
+titulo: Análise e Especificação
+inicio: 2026-05-11
+fim: 2026-05-18
+tarefas:
+  - nome: LIC-9 Criar repositório Git
+    pontos: 1
+    concluido_em: 2026-05-11
+  - nome: LIC-5 Diagrama de casos de uso
+    pontos: 2
+    concluido_em: 2026-05-15
+  - nome: LIC-8 Diagrama de arquitetura da solução
+    pontos: 2
+    concluido_em: 2026-05-16
+  - nome: LIC-7 Diagrama Entidade-Relacionamento
+    pontos: 3
+    concluido_em: 2026-05-14
+  - nome: LIC-3 Elaborar documento de descrição do sistema
+    pontos: 2
+    concluido_em: 2026-05-16
+  - nome: LIC-4 Especificações dos requisitos com histórias de usuário
+    pontos: 3
+    concluido_em: 2026-05-17
+  - nome: LIC-6 Protótipo de média fidelidade
+    pontos: 3
+    concluido_em: 2026-05-18
+  - nome: LIC-10 Docker Compose com PostgreSQL e pgvector
+    pontos: 3
+    concluido_em: 2026-05-18
+  - nome: LIC-11 Script SQL de criação do banco
+    pontos: 2
+    concluido_em: 2026-05-18
