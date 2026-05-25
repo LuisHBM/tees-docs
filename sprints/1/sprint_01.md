@@ -1,6 +1,6 @@
-# Sprint 1 — Análise e Especificação
+# Sprint 1 Análise e Especificação
 
-Período: 6 de maio a 13 de maio de 2026
+Período: 11 de maio a 18 de maio de 2026
 Total de pontos: 21
 Todas as tarefas foram concluídas
 
@@ -22,7 +22,7 @@ Todas as tarefas foram concluídas
 
 ---
 
-## Kanban (print do cronograma, pois no quadro ficou ruim pela quantidade de itens)
+## Kanban
 
 ![Quadro Kanban da Sprint I](image.png)
 
@@ -36,13 +36,27 @@ Todas as tarefas foram concluídas
 
 ## Artefatos produzidos
 
-- Documento de descrição do sistema
-- Especificações dos requisitos com histórias de usuário
-- Repositório Git
-- Diagrama de casos de uso
-- Diagrama de arquitetura da solução
-- Diagrama Entidade-Relacionamento
-- Protótipo de média fidelidade
+<!-- include:descricao_do_sistema -->
+
+<!-- include:historias_de_usuario -->
+
+### Diagrama de Casos de Uso
+
+![Diagrama de casos de uso](../../diagrama_casos_de_uso.png)
+
+### Diagrama de Arquitetura da Solução
+
+![Diagrama de arquitetura](../../diagrama_arquitetura.png)
+
+### Diagrama Entidade Relacionamento
+
+![Diagrama Entidade-Relacionamento](../../diagrama_entidade_relacionamento.png)
+
+### Demais artefatos
+
+- [Protótipo de média fidelidade](https://lever-viola-39969495.figma.site/)
+- [Repositório do projeto](https://github.com/LuisHBM/licitai)
+- [Repositório de documentação](https://github.com/LuisHBM/tees-docs)
 - Docker Compose com PostgreSQL e pgvector configurado
 - Script SQL de criação do banco
 
@@ -56,7 +70,7 @@ A equipe chegou a uma definição interessante do tema do projeto e conseguiu al
 
 **O que não funcionou**
 
-A sprint teve início desorganizado em por causa de mudanças na composição da equipe. A produção ficou concentrada nos últimos dias desnecessariamente. A conciliação com a rotina fora da faculdade foi um fator muito limitante
+A sprint teve início desorganizado por causa de mudanças na composição da equipe. A produção ficou concentrada nos últimos dias desnecessariamente. A conciliação com a rotina fora da faculdade foi um fator muito limitante
 
 **O que muda na próxima sprint**
 
