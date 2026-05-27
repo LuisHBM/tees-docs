@@ -1,0 +1,26 @@
+sprint: 2
+titulo: Camada de Orquestração de Dados (ETL)
+inicio: 2026-05-18
+fim: 2026-05-25
+tarefas:
+  - nome: LIC-18 Logs estruturados e tratamento de erros e retries na coleta
+    pontos: 2
+    concluido_em: 2026-05-21
+  - nome: LIC-16 Coluna tsvector gerada automaticamente sobre objetoCompra e órgão
+    pontos: 3
+    concluido_em: 2026-05-23
+  - nome: LIC-14 Transformação e limpeza dos dados (normalização de CNPJ, datas, valores nulos)
+    pontos: 3
+    concluido_em: 2026-05-23
+  - nome: LIC-15 Carga incremental no PostgreSQL (upsert por numeroControlePNCP)
+    pontos: 3
+    concluido_em: 2026-05-22
+  - nome: LIC-13 Extração dos itens de cada licitação via endpoint de itens da API PNCP
+    pontos: 3
+    concluido_em: 2026-05-22
+  - nome: LIC-12 Crawler Python funcional buscando contratações por intervalo de datas e modalidade
+    pontos: 4
+    concluido_em: 2026-05-25
+  - nome: LIC-19 Testes de integração do pipeline de ponta a ponta
+    pontos: 4
+    concluido_em: 2026-05-25
