@@ -1,0 +1,26 @@
+sprint: 4
+titulo: Camada de Front-End (Next.js)
+inicio: 2026-06-01
+fim: 2026-06-08
+tarefas:
+  - nome: LIC-34 Projeto Next.js configurado com integração à API FastAPI
+    pontos: 3
+    concluido_em: 2026-06-04
+  - nome: LIC-35 Página de busca com campo de texto livre e filtros laterais (UF, modalidade, valor)
+    pontos: 5
+    concluido_em: 2026-06-07
+  - nome: LIC-36 Componente de listagem de resultados com paginação
+    pontos: 4
+    concluido_em: 2026-06-07
+  - nome: LIC-37 Página de detalhe da licitação (órgão, objeto, itens, valores, link de origem)
+    pontos: 4
+    concluido_em: 2026-06-08
+  - nome: LIC-39 Indicador visual do tipo de busca usado e score de similaridade
+    pontos: 2
+    concluido_em: 2026-06-08
+  - nome: LIC-38 Toggle entre modo textual e semântico na busca
+    pontos: 3
+    concluido_em: 2026-06-08
+  - nome: LIC-42 Deploy e integração do Front-End e Back-End no Railway
+    pontos: 3
+    concluido_em: 2026-06-09
