@@ -1,0 +1,38 @@
+sprint: 3
+titulo: Camada de Back-End (Python + IA Generativa)
+inicio: 2026-05-25
+fim: 2026-06-01
+tarefas:
+  - nome: LIC-23 Estrutura base do projeto FastAPI com roteamento e tratamento de erros
+    pontos: 2
+    concluido_em: 2026-05-26
+  - nome: LIC-24 Endpoint GET /licitacoes com filtros
+    pontos: 3
+    concluido_em: 2026-05-27
+  - nome: LIC-30 Endpoint GET /licitacoes/(id) com detalhes completos
+    pontos: 3
+    concluido_em: 2026-05-29
+  - nome: LIC-25 Endpoint POST /busca/textual usando PostgreSQL full-text search (ts_query)
+    pontos: 4
+    concluido_em: 2026-05-30
+  - nome: LIC-26 Pipeline de geração de embeddings com LangChain + OpenAI sobre objetoCompra
+    pontos: 6
+    concluido_em: 2026-05-31
+  - nome: LIC-27 Persistência dos vetores na coluna pgvector da tabela de licitações
+    pontos: 3
+    concluido_em: 2026-05-31
+  - nome: LIC-28 Endpoint POST /busca/semantica com similarity search via pgvector
+    pontos: 6
+    concluido_em: 2026-06-01
+  - nome: LIC-29 Interpretação de query em linguagem natural via LLM
+    pontos: 5
+    concluido_em: 2026-06-01
+  - nome: LIC-31 Documentação automática via Swagger/OpenAPI
+    pontos: 2
+    concluido_em: 2026-06-01
+  - nome: LIC-49 Testes unitários dos endpoints principais
+    pontos: 3
+    concluido_em: 2026-06-01
+  - nome: "LIC-20 Sprint III: Camada de Back-End (Python + IA Generativa)"
+    pontos: 4
+    concluido_em: 2026-06-01
