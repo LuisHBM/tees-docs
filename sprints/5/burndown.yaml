@@ -1,0 +1,35 @@
+sprint: 5
+titulo: Camada Analítica (Power BI + OLAP)
+inicio: 2026-06-08
+fim: 2026-06-15
+tarefas:
+  - nome: LIC-43 Modelagem dimensional em estrela (dimensões e fato)
+    pontos: 5
+    concluido_em: 2026-06-13
+  - nome: LIC-45 Endpoint POST /analitico/rebuild para reconstrução do star schema
+    pontos: 2
+    concluido_em: 2026-06-13
+  - nome: LIC-49 Documentação da camada analítica (modelo dimensional, ETL e endpoints)
+    pontos: 2
+    concluido_em: 2026-06-13
+  - nome: LIC-44 ETL full-refresh de carga do star schema
+    pontos: 6
+    concluido_em: 2026-06-14
+  - nome: LIC-47 Exportação CSV das tabelas do star schema para ferramentas OLAP
+    pontos: 3
+    concluido_em: 2026-06-14
+  - nome: LIC-51 Sugestões de busca (autocomplete) na barra de pesquisa
+    pontos: 3
+    concluido_em: 2026-06-14
+  - nome: LIC-46 Endpoints de agregação JSON do painel analítico
+    pontos: 5
+    concluido_em: 2026-06-15
+  - nome: LIC-48 Painel analítico no front-end consumindo os endpoints de agregação
+    pontos: 5
+    concluido_em: 2026-06-15
+  - nome: LIC-50 Resumo por IA (RAG) dos resultados da busca semântica
+    pontos: 5
+    concluido_em: 2026-06-15
+  - nome: LIC-42 Deploy e integração do Front-End e Back-End no Railway
+    pontos: 3
+    concluido_em: 2026-06-15

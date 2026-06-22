@@ -1,0 +1,85 @@
+@startuml
+skinparam linetype ortho
+skinparam ranksep 70
+skinparam nodesep 60
+
+skinparam entity {
+  BackgroundColor #E6F1FB
+  BorderColor #185FA5
+  FontColor #0C447C
+  FontSize 12
+}
+
+skinparam arrow {
+  Color #888780
+  FontSize 11
+}
+
+' ── Dimensões ───────────────────────────────────────────────
+entity "dim_tempo" as DTEMPO {
+  * id_tempo : int <<PK>>
+  --
+  data : date
+  ano : int
+  trimestre : int
+  mes : int
+  nome_mes : varchar
+  mes_abrev : varchar
+  ano_mes : varchar
+  quadrienal : varchar
+}
+
+entity "dim_orgao" as DORG {
+  * id_dim_orgao : uuid <<PK>>
+  --
+  cnpj : varchar
+  razao_social : varchar
+  esfera : char
+  poder : char
+  nome_unidade : varchar
+  municipio : varchar
+  codigo_ibge : varchar
+  uf : char
+}
+
+entity "dim_modalidade" as DMOD {
+  * id_dim_modalidade : int <<PK>>
+  --
+  nome : varchar
+}
+
+entity "dim_uf" as DUF {
+  * uf : char <<PK>>
+  --
+  nome : varchar
+  regiao : varchar
+}
+
+' ── Tabela Fato ─────────────────────────────────────────────
+entity "fato_licitacao" as FATO {
+  * id_fato : uuid <<PK>>
+  --
+  id_tempo : int <<FK>>
+  id_dim_orgao : uuid <<FK>>
+  id_dim_modalidade : int <<FK>>
+  uf : char <<FK>>
+  --
+  numero_controle_pncp : varchar
+  situacao_id : int
+  situacao_nome : varchar
+  modo_disputa_nome : varchar
+  srp : boolean
+  ano_compra : int
+  == métricas ==
+  valor_estimado : numeric
+  valor_homologado : numeric
+  economia : numeric
+  qtd_itens : int
+}
+
+' ── Relacionamentos (estrela) ───────────────────────────────
+DTEMPO ||--o{ FATO : quando
+DORG   ||--o{ FATO : quem
+DMOD   ||--o{ FATO : tipo
+DUF    ||--o{ FATO : onde
+@enduml
